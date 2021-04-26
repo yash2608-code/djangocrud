@@ -1,0 +1,42 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My First WebPage</title>
+    <link rel="stylesheet" href="{% static 'css/first.css' %}" type="text/css">
+</head>
+
+<body>
+    <table class="tbl" align="center" border="2" cellspacing="0" cellpadding="8">
+        <tr style="background-color: aqua; color: brown;">
+            <th>Sr no.</th>
+            <th>Fname</th>
+            <th>Email</th>
+            <th>Password</th>
+        </tr>
+        <tr id="one">
+            <td>1</td>
+            <td>hi</td>
+            <td>hi@gmail.com</td>
+            <td>hi123</td>
+        </tr>
+        <tr class="one">
+            <td>2</td>
+            <td>hii</td>
+            <td>hii@gmail.com</td>
+            <td>hii123</td>
+        </tr>
+        <tr class="one">
+            <td>3</td>
+            <td>hiii</td>
+            <td>hiii@gmail.com</td>
+            <td>hiii123</td>
+        </tr>
+    </table>
+</body>
+
+</html>

@@ -1,0 +1,16 @@
+#one 
+{
+    background-color: orange;
+    color: red;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.one 
+{
+    background-color: skyblue;
+    font-weight: 800;
+    color: slateblue;
+}
+.tbl{
+    margin-top: 250px;
+    animation: abc 2s linear infinite;
+}
